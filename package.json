@@ -1,0 +1,29 @@
+{
+  "name": "hikaribot",
+  "version": "1.0.0",
+  "description": "bot discord yang dibikin pas gabut",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "lint": "eslint ."
+  },
+  "author": "nwrr",
+  "license": "ISC",
+  "dependencies": {
+    "@discord-player/extractor": "^4.4.7",
+    "discord-player": "^6.6.8",
+    "discord.js": "^14.14.1",
+    "ffmpeg-static": "^5.2.0",
+    "mediaplex": "^0.0.9",
+    "play-dl": "^1.9.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^9.1.1",
+    "globals": "^15.1.0"
+  }
+}
